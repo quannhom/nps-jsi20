@@ -1,4 +1,4 @@
-let student = [
+let students = [
 {
     id: 1,
     name: "Lê Anh",
@@ -16,5 +16,14 @@ let student = [
     name: "Thùy Chi",   
     age: 3,
     major: "Calisthenic",
-}
-];
+}];
+
+students.push({
+    id: 4,
+    name: "Quan",
+    age: 4,
+    major: "homeless"
+});
+
+console.log(students.find(obj => obj.id ==2));
+console.log(students.findIndex(obj => obj.id ==2));
