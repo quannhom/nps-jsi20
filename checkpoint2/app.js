@@ -40,3 +40,13 @@ function stopTimer(i) {
 function pauseTimer(i) {
     clearInterval(timers[i].interval);
 }
+function startAll(){
+    for(let i =0; i < timers.length; i++){
+        startTimer(i);
+    };
+};
+function stopAll(){
+    for(let i =0; i < timers.length; i++){
+        stopTimer(i);
+    };
+};
