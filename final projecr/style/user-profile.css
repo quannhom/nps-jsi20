@@ -47,7 +47,7 @@
 .container {
     background: #fff;
     width: 550px;
-    height: 420px;
+    height: 440px;
     margin: 0 auto;
     position: relative;
     margin-top: 100px;
@@ -138,3 +138,10 @@
     text-decoration: none;
     font-weight: 900;
   }
+.admin-dashboard{
+  margin-top: 10px;
+  font-size: 14px;
+  border: none;
+  color: #FFC527;
+  cursor: pointer;
+}
